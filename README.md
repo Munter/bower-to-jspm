@@ -7,6 +7,8 @@ I needed a tool to help me look up packages for jspm. I had a bower config, now 
 
 This tool solves that problem.
 
+When you have migrated all your packages to jspm you might want to [test our systemjs config](https://github.com/Munter/jspm-config-test) to be sure all your modules are correctly hooked up.
+
 
 Usage
 -----
