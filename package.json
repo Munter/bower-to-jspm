@@ -1,0 +1,36 @@
+{
+  "name": "bower-to-jspm",
+  "version": "0.0.0",
+  "description": "Utility to help migrate from bower to jspm. Finds packages on npm and github and generates install command lines for you",
+  "main": "index.js",
+  "directories": {
+    "bin": "./bin"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Munter/bower-to-jspm.git"
+  },
+  "keywords": [
+    "bower",
+    "jspm",
+    "migration",
+    "npm",
+    "github"
+  ],
+  "author": "Peter Müller <munter@fumle.dk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Munter/bower-to-jspm/issues"
+  },
+  "homepage": "https://github.com/Munter/bower-to-jspm",
+  "dependencies": {
+    "bower": "^1.4.1",
+    "chalk": "^1.1.0",
+    "npm": "^2.12.1",
+    "semver": "^4.3.6",
+    "when": "^3.7.3"
+  }
+}
