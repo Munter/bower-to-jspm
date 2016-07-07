@@ -1,6 +1,6 @@
 {
   "name": "bower-to-jspm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility to help migrate from bower to jspm. Finds packages on npm and github and generates install command lines for you",
   "main": "index.js",
   "directories": {
