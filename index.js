@@ -71,6 +71,10 @@ require('npm').load(process.cwd() + '/package.json', function (err, npm) {
 
   ['dependencies', 'devDependencies'].forEach(function (key) {
 
+    if (!Array.isArray(bowerConfig[key])) {
+        return;
+    }
+
     Object.keys(bowerConfig[key]).filter(function (moduleName) {
       return !(moduleName in jspmConfig[key]);
     }).map(function (moduleName) {
